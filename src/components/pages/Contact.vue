@@ -24,9 +24,9 @@
 
 <script>
 
-import TPage from '../templates/Page'
-import AInput from '../atoms/Input'
-import AButton from '../atoms/Button'
+import TPage from '#/templates/Page'
+import AInput from '#/atoms/Input'
+import AButton from '#/atoms/Button'
 
 export default {
   name: 'p-contact',

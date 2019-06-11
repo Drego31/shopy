@@ -9,8 +9,8 @@
 </template>
 
 <script>
-import TPage from '../templates/Page'
-import MPost from '../molecules/Post'
+import TPage from '#/templates/Page'
+import MPost from '#/molecules/Post'
 export default {
   name: 'p-about-us',
   components: {MPost, TPage},

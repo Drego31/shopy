@@ -10,8 +10,8 @@
 </template>
 
 <script>
-import TPage from '../templates/Page'
-import MPostCamsView from '../molecules/post/CamsView'
+import TPage from '#/templates/Page'
+import MPostCamsView from '#/molecules/post/CamsView'
 
 export default {
   name: 'p-skicams',

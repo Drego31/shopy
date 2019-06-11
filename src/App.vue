@@ -9,8 +9,9 @@
 </template>
 
 <script>
-  import MHeader from "./components/molecules/Header"
-  import MFooter from "./components/molecules/Footer"
+  import MHeader from '#/molecules/Header'
+  import MFooter from '#/molecules/Footer'
+
   export default {
     components: {MFooter, MHeader}
   }
