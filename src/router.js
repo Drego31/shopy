@@ -12,12 +12,12 @@ export default new Router({
     routes: [
         {
             path: '/',
-            name: 'aboutUs',
+            name: 'home',
             component: AboutUs,
         },
         {
-            path: '/skicams',
-            name: 'skicams',
+            path: '/about',
+            name: 'about',
             component: Skicams,
         },
         {
