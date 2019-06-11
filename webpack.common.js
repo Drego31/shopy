@@ -5,8 +5,8 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.scss$/,
-        use: ['style-loader', 'css-loader', 'sass-loader']
+        test: /\.sass$/,
+        use: ['style-loader', 'css-loader', 'sass-loader', 'import-glob-loader']
       },
       {
         test: /\.(png|woff|woff2|eot|ttf|svg)$/,
@@ -27,7 +27,7 @@ module.exports = {
     ]
   },
   resolve: {
-    extensions: ['.vue', '.scss', '.js', '.html'],
+    extensions: ['.vue', '.sass', '.js', '.html'],
   },
   plugins: [
     // make sure to include the plugin!
