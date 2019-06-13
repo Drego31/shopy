@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Products from '#/pages/Products'
 import Skicams from '#/pages/Skicams'
 import Contact from '#/pages/Contact'
+import Article from '#/pages/Article'
 
 Vue.use(Router)
 
@@ -14,6 +15,11 @@ export default new Router({
             path: '/',
             name: 'products',
             component: Products,
+        },
+        {
+            path: '/article',
+            name: 'article',
+            component: Article,
         },
         {
             path: '/about',
