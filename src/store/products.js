@@ -7,7 +7,7 @@ export default {
       {
         id: 1,
         img: Image,
-        title: 'Title',
+        title: 'Title 1',
         shortDescription: 'Description',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ' +
           'elementum lacus a est pretium pellentesque. Praesent vel ante sagittis, dignissim ' +
@@ -19,7 +19,7 @@ export default {
       {
         id: 2,
         img: Image,
-        title: 'Title',
+        title: 'Title 2',
         shortDescription: 'Description',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ' +
           'elementum lacus a est pretium pellentesque. Praesent vel ante sagittis, dignissim ' +
@@ -31,7 +31,7 @@ export default {
       {
         id: 3,
         img: Image,
-        title: 'Title',
+        title: 'Title 3',
         shortDescription: 'Description',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ' +
           'elementum lacus a est pretium pellentesque. Praesent vel ante sagittis, dignissim ' +
