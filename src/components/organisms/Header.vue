@@ -22,7 +22,7 @@
 
 <script>
   export default {
-    name: 'm-header',
+    name: 'o-header',
     data: () => ({
       links: [
         {path: '/', label: 'Home'},

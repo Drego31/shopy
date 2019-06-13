@@ -1,18 +1,17 @@
 <template>
   <div>
-    <m-header/>
+    <o-header/>
+
     <div class="o-content">
       <router-view/>
     </div>
-    <m-footer/>
   </div>
 </template>
 
 <script>
-  import MHeader from '#/organisms/Header'
-  import MFooter from '#/organisms/Footer'
+  import OHeader from '#/organisms/Header'
 
   export default {
-    components: {MFooter, MHeader}
+    components: {OHeader}
   }
 </script>
