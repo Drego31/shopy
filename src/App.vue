@@ -1,8 +1,10 @@
 <template>
   <div>
     <o-header/>
-    <o-cart/>
     <div class="o-content">
+      <div>
+        <o-cart/>
+      </div>
       <router-view/>
     </div>
   </div>
