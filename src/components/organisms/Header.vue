@@ -15,12 +15,14 @@
       </router-link>
     </div>
     <div class="m-searcher">
-      -O
+      <font-awesome-icon :icon="icon"/>
     </div>
   </div>
 </template>
 
 <script>
+  import {faSearch} from '@fortawesome/free-solid-svg-icons'
+
   export default {
     name: 'o-header',
     data: () => ({
@@ -30,6 +32,9 @@
         {path: '/contact', label: 'Contact'},
       ]
     }),
+    computed: {
+      icon: () => faSearch,
+    },
     methods: {
       is_selected(route) {
         const currentPath = this.$route.path
