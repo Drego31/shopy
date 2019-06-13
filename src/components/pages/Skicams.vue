@@ -11,7 +11,7 @@
 
 <script>
 import TPage from '#/templates/Page'
-import MPostCamsView from '#/molecules/post/CamsView'
+import MPostCamsView from '#/molecules/Article/CamsView'
 
 export default {
   name: 'p-skicams',

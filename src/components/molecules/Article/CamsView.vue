@@ -1,5 +1,5 @@
 <template>
-  <div class="m-post f-cams-view">
+  <div class="m-article f-cams-view">
     <div class="f-py-2 f-text-center">
       <span class="f-text-28">
         {{ name }}
@@ -16,7 +16,7 @@
 <script>
 import moment from 'moment'
 export default {
-  name: 'm-post-cams-view',
+  name: 'm-article-cams-view',
   props: {
     name: {type: String, required: true},
     cams: {type: Array, required: true},

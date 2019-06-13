@@ -1,5 +1,5 @@
 <template>
-  <div class="m-post">
+  <div class="m-article">
     <div class="a-img f-post" :style="`background-image: url('${img}');`">
     </div>
     <div class="f-py-4 f-px-3">
@@ -15,7 +15,7 @@
 
 <script>
 export default {
-  name: 'm-post',
+  name: 'm-article',
   props: {
     img: {type: String, required: true},
     title: {type: String, required: true},
