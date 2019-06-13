@@ -1,8 +1,8 @@
 <template>
   <div class="m-article">
-    <div class="a-img f-post" :style="`background-image: url('${img}');`">
+    <div class="a-img f-article" :style="`background-image: url('${img}');`">
     </div>
-    <div class="f-py-2 f-px-3">
+    <div class="f-pt-2 f-pb-3 f-px-2">
       <div class="a-title f-dark">
         {{ title }}
       </div>

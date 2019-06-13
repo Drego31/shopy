@@ -20,18 +20,18 @@ export default {
     posts: [
       {
         img: Image,
-        title: 'Lorem ipsum',
-        message: 'Etiam ullamcorper. Suspendisse a pellentesque dui, non felis meacenas.',
+        title: 'Title',
+        message: 'Description',
       },
       {
         img: Image,
-        title: 'Lorem ipsum',
-        message: 'Etiam ullamcorper. Suspendisse a pellentesque dui, non felis meacenas.',
+        title: 'Title',
+        message: 'Description',
       },
       {
         img: Image,
-        title: 'Lorem ipsum',
-        message: 'Etiam ullamcorper. Suspendisse a pellentesque dui, non felis meacenas.',
+        title: 'Title',
+        message: 'Description',
       },
     ],
   }),
