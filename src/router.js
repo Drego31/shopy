@@ -1,9 +1,9 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Products from '#/pages/Products'
-import Skicams from '#/pages/Skicams'
 import Contact from '#/pages/Contact'
 import Article from '#/pages/Article'
+import About from '#/pages/About'
 
 Vue.use(Router)
 
@@ -24,7 +24,7 @@ export default new Router({
         {
             path: '/about',
             name: 'about',
-            component: Skicams,
+            component: About,
         },
         {
             path: '/contact',

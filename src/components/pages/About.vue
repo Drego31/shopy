@@ -1,21 +1,14 @@
 <template>
-  <t-page class="p-skicams">
-    <m-post-cams-view
-      v-for="(view, key) in listOfViews"
-      :key="key"
-      :name="view.name"
-      :cams="view.cams"
-    />
-  </t-page>
+  <t-simple class="p-about" title="About">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In erat sem, lobortis a diam sit amet, laoreet ullamcorper magna. Integer neque mauris, accumsan non ligula sed, ultricies sagittis ligula. Aliquam venenatis nisl vel egestas tristique. Sed ornare dictum orci et elementum. Mauris quis ex ac dui fermentum pharetra. Aliquam pellentesque ullamcorper eleifend. Sed quis porttitor sapien.
+  </t-simple>
 </template>
 
 <script>
-import TPage from '#/templates/Page'
-import MPostCamsView from '#/molecules/Article/CamsView'
-
+import TSimple from '#/templates/Simple'
 export default {
-  name: 'p-skicams',
-  components: {MPostCamsView, TPage},
+  name: 'p-about',
+  components: {TSimple},
   data: () => ({
     listOfViews: [
       {name: '', cams: [{url: ''}, {url: ''}]},
