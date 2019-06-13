@@ -15,21 +15,25 @@ export default new Router({
             path: '/',
             name: 'products',
             component: Products,
+            showCart: true,
         },
         {
             path: '/article/:id',
             name: 'article',
             component: Article,
+            showCart: true,
         },
         {
             path: '/about',
             name: 'about',
             component: About,
+            showCart: false,
         },
         {
             path: '/contact',
             name: 'contact',
             component: Contact,
+            showCart: false,
         },
     ],
 })
