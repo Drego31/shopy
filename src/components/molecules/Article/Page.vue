@@ -5,13 +5,13 @@
       <div class="a-title">
         {{ title }}
       </div>
-      <div class="f-flex">
-        <div class="f-flex-1 f-pr-6">
+      <div class="m-conteiner">
+        <div class="f-flex-1">
           <div class="a-text">
             {{ description }}
           </div>
         </div>
-        <div class="f-pl-6">
+        <div>
           <a-button @click.native="addToCart">
             {{ buttonText }}
           </a-button>

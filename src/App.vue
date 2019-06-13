@@ -18,7 +18,7 @@
     components: {OCart, OHeader},
     computed: {
       showCart() {
-        const route = this.$router.options.routes.find(item => item.path === this.$route.path)
+        const route = this.$router.options.routes.find(item => item.name === this.$route.name)
         return route.showCart
       }
     }
