@@ -1,5 +1,5 @@
 <template>
-  <t-page class="p-about-us">
+  <t-page class="p-products">
     <m-post
       v-for="(single, key) in posts"
       :key="key"
@@ -11,23 +11,25 @@
 <script>
 import TPage from '#/templates/Page'
 import MPost from '#/molecules/Article'
+import Image from '@/assets/main-photo.png'
+
 export default {
-  name: 'p-about-us',
+  name: 'p-products',
   components: {MPost, TPage},
   data: () => ({
     posts: [
       {
-        img: '',
+        img: Image,
         title: 'Lorem ipsum',
         message: 'Etiam ullamcorper. Suspendisse a pellentesque dui, non felis meacenas.',
       },
       {
-        img: '',
+        img: Image,
         title: 'Lorem ipsum',
         message: 'Etiam ullamcorper. Suspendisse a pellentesque dui, non felis meacenas.',
       },
       {
-        img: '',
+        img: Image,
         title: 'Lorem ipsum',
         message: 'Etiam ullamcorper. Suspendisse a pellentesque dui, non felis meacenas.',
       },

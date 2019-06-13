@@ -1,5 +1,5 @@
 <template>
-  <div class="t-page m-mobile-content">
+  <div class="t-page">
     <slot/>
   </div>
 </template>

@@ -2,11 +2,11 @@
   <div class="m-article">
     <div class="a-img f-post" :style="`background-image: url('${img}');`">
     </div>
-    <div class="f-py-4 f-px-3">
-      <div class="f-pb-1 f-text-28">
+    <div class="f-py-2 f-px-3">
+      <div class="a-title f-dark">
         {{ title }}
       </div>
-      <div>
+      <div class="a-text f-dark">
         {{ message }}
       </div>
     </div>
