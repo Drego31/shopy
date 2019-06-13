@@ -1,7 +1,7 @@
 <template>
   <div>
     <o-header/>
-
+    <o-cart/>
     <div class="o-content">
       <router-view/>
     </div>
@@ -10,8 +10,9 @@
 
 <script>
   import OHeader from '#/organisms/Header'
+  import OCart from '#/organisms/Cart'
 
   export default {
-    components: {OHeader}
+    components: {OCart, OHeader}
   }
 </script>
