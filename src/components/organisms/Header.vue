@@ -9,7 +9,7 @@
         :key="key"
         class="a-link f-menu"
         :to="route.path"
-        :class="is_selected(route)"
+        :class="isSelected(route)"
       >
         {{ route.label }}
       </router-link>
@@ -36,7 +36,7 @@
       icon: () => faSearch,
     },
     methods: {
-      is_selected(route) {
+      isSelected(route) {
         const currentPath = this.$route.path
         return currentPath === route.path ? 'f-selected' : ''
       }
