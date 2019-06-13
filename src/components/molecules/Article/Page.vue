@@ -1,6 +1,6 @@
 <template>
   <div class="m-article f-page">
-    <img class="a-img f-page" :src="img"/>
+    <img class="a-img f-page" :src="'/' + img"/>
     <div class="m-content f-article">
       <div class="a-title">
         {{ title }}
@@ -8,7 +8,7 @@
       <div class="f-flex">
         <div class="f-flex-1 f-pr-6">
           <div class="a-text">
-            {{ message }}
+            {{ description }}
           </div>
         </div>
         <div class="f-pl-6">
@@ -29,7 +29,7 @@ export default {
   props: {
     img: {type: String, required: true},
     title: {type: String, required: true},
-    message: {type: String, required: true},
+    description: {type: String, required: true},
   },
 }
 </script>

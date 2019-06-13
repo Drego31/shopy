@@ -7,7 +7,7 @@
         {{ title }}
       </div>
       <div class="a-text f-dark">
-        {{ message }}
+        {{ shortDescription }}
       </div>
     </div>
   </div>
@@ -20,11 +20,11 @@ export default {
     id: {type: Number, required: true},
     img: {type: String, required: true},
     title: {type: String, required: true},
-    message: {type: String, required: true},
+    shortDescription: {type: String, required: true},
   },
   methods: {
     goToArticle() {
-      this.$router.push('/article')
+      this.$router.push('/article/' + this.id)
     }
   },
 }
