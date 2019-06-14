@@ -13,13 +13,12 @@
 <script>
 
   import TPage from '#/templates/Page'
-  import AInput from '#/atoms/Input'
   import AButton from '#/atoms/Button'
   import TSimple from '#/templates/Simple'
 
   export default {
     name: 'p-contact',
-    components: {TSimple, AButton, AInput, TPage},
+    components: {TSimple, AButton, TPage},
     data: () => ({
       title: 'Contact'
     }),
