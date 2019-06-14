@@ -1,7 +1,12 @@
 <template>
   <div class="o-header">
-    <div class="a-logo">
-      LOGO
+    <div>
+      <div class="a-logo">
+        LOGO
+      </div>
+      <div class="m-searcher f-left">
+        <font-awesome-icon :icon="icon"/>
+      </div>
     </div>
     <div class="m-nav">
       <router-link
@@ -14,7 +19,7 @@
         {{ route.label }}
       </router-link>
     </div>
-    <div class="m-searcher">
+    <div class="m-searcher f-right">
       <font-awesome-icon :icon="icon"/>
     </div>
   </div>

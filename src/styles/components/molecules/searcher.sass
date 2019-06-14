@@ -1,6 +1,20 @@
 .m-searcher
+  display: inline-block
   width: 100px
   height: 100px
   line-height: 100px
   text-align: center
   background: $search
+
+  &.f-left
+    display: inline-block
+
+  &.f-right
+    display: none
+
+  @media screen and (min-width: 515px)
+    &.f-left
+      display: none
+
+    &.f-right
+      display: block

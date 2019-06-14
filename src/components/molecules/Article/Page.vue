@@ -11,7 +11,7 @@
             {{ description }}
           </div>
         </div>
-        <div>
+        <div class="f-pl-2">
           <a-button @click.native="addToCart">
             {{ buttonText }}
           </a-button>
